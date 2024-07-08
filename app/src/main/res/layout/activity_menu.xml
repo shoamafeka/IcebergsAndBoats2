@@ -1,0 +1,42 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MenuActivity">
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_play_with_buttons_slow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Play with Buttons (Slow)"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_play_with_buttons_fast"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Play with Buttons (Fast)"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/btn_play_with_buttons_slow"
+        android:layout_marginTop="20dp"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_play_with_sensor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Play with Sensor"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/btn_play_with_buttons_fast"
+        android:layout_marginTop="20dp"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_high_scores"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="High Scores"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/btn_play_with_sensor"
+        android:layout_marginTop="20dp"/>
+</RelativeLayout>
